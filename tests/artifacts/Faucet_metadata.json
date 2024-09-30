@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/Fauet.sol": "Faucet"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/Fauet.sol": {
+			"keccak256": "0x53d055fb10e875a8e02d514f6e854a86ca66dd63c141d856e7c1bf4435643db2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c29b3a044587c9dedee86095fffc1010b1ec3b9791cf7c56a49f5a8b9cfaeb16",
+				"dweb:/ipfs/QmZbTXti9wPCNNjUY54FPvcPtnb6vBW7JMeTZo2jiiArZV"
+			]
+		}
+	},
+	"version": 1
+}

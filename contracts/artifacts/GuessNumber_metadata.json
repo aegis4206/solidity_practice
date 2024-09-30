@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "guessNum",
+						"type": "uint256"
+					}
+				],
+				"name": "guess",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "guessHistory",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "person",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Guess.sol": "GuessNumber"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Guess.sol": {
+			"keccak256": "0x1010d2a98b664febf0bd429c15d1f3f1ac9037c59aee3318c2fdeb86b9be2f48",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://124dc5819f042bee699ff045fc4ddf4f405d256159360d04b64b067e79487788",
+				"dweb:/ipfs/QmWjFpFqqpG7qnZcA1YjQYgN865k2kh6GipGkU5GwxSxeM"
+			]
+		}
+	},
+	"version": 1
+}
